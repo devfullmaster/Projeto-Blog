@@ -1,0 +1,111 @@
+footer {
+  position: relative;
+  padding-top: 8rem;
+  padding-bottom: 6.3rem;
+  &:before {
+    content: "";
+    width: 100%;
+    max-width: 121.6rem;
+    height: 2px;
+    background: url("../img/line-footer.svg") no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -60.8rem;
+  }
+  .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .left-footer {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    max-width: 82.9rem;
+    strong {
+      font-weight: 700;
+      font-size: 1.4rem;
+      line-height: 150%;
+      color: #FFFFFF;
+    }
+    p {
+      flex: 1;
+      font-weight: 400;
+      font-size: 1.4rem;
+      line-height: 150%;
+      color: rgba(255, 255, 255, 0.8);
+      margin-left: 8.4rem;
+    }
+  }
+  .right-footer {
+    display: flex;
+    align-items: center;
+    .group {
+      display: flex;
+      align-items: center;
+      margin-right: 7.1rem;
+      span {
+        color: #FFFFFF;
+        font-size: 1.6rem;
+        margin-right: 1.6rem;
+      }
+    }
+    button {
+      width: 3.7rem;
+      height: 3.7rem;
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: filter .3s ease;
+      &:hover {
+        filter: brightness(0.5);
+      }
+    }
+  }
+  @media(max-width: 1150px) {
+    padding: 6rem 0;
+  }
+  @media(max-width: 991px) {
+    .left-footer {
+      p {
+        margin-left: 3rem;
+        max-width: 70%;
+      }
+    }
+  }
+  @media(max-width: 768px) {
+    &:before {
+      left: 0;
+      margin-left: 0;
+      background-size: cover;
+    }
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .left-footer {
+      max-width: 100%;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 4rem;
+      p {
+        max-width: 90%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 2rem;
+      }
+    }
+  }
+  @media(max-width: 560px) {
+    padding: 4rem 0;
+    .left-footer {
+      p {
+        max-width: 100%;
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
