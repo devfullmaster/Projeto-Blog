@@ -1,7 +1,7 @@
 <h1 align="center" id="topo">Projeto Blog</h1>
 
 <div align="center">
-<img width='600px' src="./img/mockup-blizzard.png" width="35px"/>
+<img width='600px' src="./img/mockup-blog9.png" width="35px"/>
 </div>
 
 
@@ -25,20 +25,20 @@ O projeto foi desenvolvido com as seguintes ferramentas:
 
 ---
 
-### 🚀 ​ [Clique aqui](https://projeto-landing-page-blizzard.vercel.app/)🔗 e veja o projeto no ar.
+### 🚀 ​ [Clique aqui](https://projeto-blog-nine.vercel.app/)🔗 e veja o projeto no ar.
 
 ---
 
 ### ​👷‍♂️​ Acessar o Projeto
 
-<a href="https://github.com/devfullmaster/Projeto-Landing-Page-Blizzard/tree/master">Acesse aqui</a>🔗 o código fonte pelo GitHub.
+<a href=https://github.com/devfullmaster/Projeto-Blog/tree/main>Acesse aqui</a>🔗 o código fonte pelo GitHub.
 
-Faça o <a href="https://github.com/devfullmaster/Projeto-Landing-Page-Blizzard/archive/refs/heads/master.zip">Download aqui</a>🔗 do código fonte no formato zip.
+Faça o <a href="https://github.com/devfullmaster/Projeto-Blog/archive/refs/heads/main.zip">Download aqui</a>🔗 do código fonte no formato zip.
 
 Clone o repositório:
 
 ```
-git clone https://github.com/devfullmaster/Projeto-Landing-Page-Blizzard.git
+git clone https://github.com/devfullmaster/Projeto-Blog.git
 ```
 
 ---
